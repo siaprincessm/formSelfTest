@@ -101,4 +101,21 @@ let selectedRegion = document.querySelector('#region-address');
 let btn = document.querySelector('#submitBtn');
     btn.addEventListener('click', function(){
         alert("Submission successful")
+
+        let firstNameRequired = false;
+        let lastNameRequired = false;
+        let middleinitialRequired = false;
+
+        let firstName = documetn.querySelector('#firstName').value;
+        if ( firstName === null ) {
+            firstNameRequired = true;
+        }
+        let errorNameDiv = document.querySelector('#name')
+            errorNameDiv.innerHTML ='';
     })
+
+let btnNext = document.querySelector('#nextBtn');
+    btnNext.addEventListener('click', function (){
+        alert("Test next page")
+    })
+

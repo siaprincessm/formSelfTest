@@ -1,8 +1,8 @@
 #form {
     margin: auto;
-    width: 50%;
+    width: 30%;
     border: 3px solid black;
-    background-color: paleturquoise;
+    background-color: gainsboro;
     padding: 10px;
 }
 #submitBtn {
@@ -10,5 +10,12 @@
     display: block;
     text-align: center;
     background-color: green;
+
+}
+#nextBtn {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    background-color: yellow;
 
 }
