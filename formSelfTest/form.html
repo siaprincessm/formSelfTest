@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form Self Test</title>
+</head>
+<body>
+    <h2>Personal Information Form</h2>
+    <div id="form">
+        <div id="name">Name<br>
+            <select id="selectTitle" placeholder="Title"></select>
+            <input type="text" id="lastName" placeholder="Last Name">
+            <input type="text" id="firstName" placeholder="First Name">
+            <input type="text" id="middleInitial" placeholder="M.I">
+        </div>
+        <br>
+        <div id="gender">Gender<br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label>Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label>Female</label><br>
+            <input type="radio" id="others" name="gender" value="others">
+            <label>Others</label>
+        </div>
+        <br>
+        <div>Date of Birth<br>
+            <input type="date" id="birthdate">
+        </div>
+        <br>
+        <div>Preferred Contact Address<br>
+            <input type="radio" id="homeAddress" name="address" value="home-address">
+            <label>Home</label><br>
+            <input type="radio" id="workAddress" name="address" value="work-address">
+            <label>Work</label><br>
+            <input type="radio" id="otherAddress" name="address" value="other-address">
+            <label>Others</label>
+        </div>
+        <br>
+        <div id="Address">Address<br>
+            <input type="text" id="street-address" placeholder="Street Name"><br>
+            <input type="text" id="city-address" placeholder="City Name">
+            <input type="text" id="province-address" placeholder="Province"><br>
+            <select id="region-address" placeholder="Region"></select>
+        </div>
+        <br>
+        <div id="tel">Mobile<br>
+            <input type="tel" id="mobile" placeholder="+639">
+        </div>
+        <br>
+        <div id="email">Email<br>
+            <input type="email" id="email" placeholder="test@email.com">
+        </div>
+        <br>
+        <br>
+        <button id="submitBtn">Submit</button>
+
+
+
+</div>
+    <script src="form.js"></script>
+</body>
+</html>
