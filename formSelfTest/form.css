@@ -2,6 +2,13 @@
     margin: auto;
     width: 50%;
     border: 3px solid black;
-    background-color: palegoldenrod;
+    background-color: paleturquoise;
     padding: 10px;
+}
+#submitBtn {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    background-color: green;
+
 }

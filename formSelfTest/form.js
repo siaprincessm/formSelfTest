@@ -97,3 +97,8 @@ let selectedRegion = document.querySelector('#region-address');
             <option value="${eachRegion.value}">${eachRegion.name}</option>
         `
     }
+
+let btn = document.querySelector('#submitBtn');
+    btn.addEventListener('click', function(){
+        alert("Submission successful")
+    })
